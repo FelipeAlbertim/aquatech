@@ -4,20 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AquaTech</title>
-    <link rel="stylesheet" href="style.css">
+    <title>AquaTech - Cadastro</title>
+    <link rel="stylesheet" href="styleCadastro.css">
+    <link rel="stylesheet" href="shared.css">
 </head>
 
 <body>
     <div class="header">
         <div class="container">
-            <h2 class="titulo">AquaTech</h2>
+            <h1 class="titulo"> <a href="index.html"> AquaTech</a></h1>
             <ul class="navbar">
                 <li> Inicial </li>
                 <li> Simulador </li>
                 <li> | </li>
-                <li><a href="">Login</a></li>
-                <li><a href="./cadastro.html">Cadastre-se</a></li>
+
+                <a href="">
+                    <li> Login </li>
+                </a>
+
+                <a href="./cadastro.html">
+                    <li> Cadastre-se </li>
+                </a>
+
             </ul>
         </div>
     </div>
@@ -37,7 +45,7 @@
                     <label for="ipt_senha" class="label">Senha:</label>
                     <input type="password" id="ipt_senha" class="ipt" placeholder="********">
 
-                    <label for="ipt_confirma_senha" class="label">Confimação Senha:</label>
+                    <label for="ipt_confirma_senha" class="label">Confirmação Senha:</label>
                     <input type="password" id="ipt_confirma_senha" class="ipt" placeholder="********">
 
                     <button onclick="" id="btn_cadastrar" class="label">Cadastrar</button>

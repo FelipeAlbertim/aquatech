@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+}
+
+.titulo {
+    color: #32b9cd;
+    font-weight: 500;
+}
+
+.titulo a{
+    text-decoration: none;
+    color:#32b9cd ;
+}
+
+.navbar {
+    width: 300px;
+    color: #e3b062;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    color: #e3b062;
+    text-decoration: none;
+}
+
+.header {
+    border-bottom: 3px solid #32b9cd;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.itensCadastro{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.banner {
+    background-image: url(./assets/imagens/bg-jelly-fish-para_outras_pags.png);
+    height: 550px;
+    color: white;
+}
+
+.banner .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.banner .container .cadastro .itensCadastro #btn_cadastrar {
+    background-color: rgb(240, 89, 119);
+    align-items: center;
+    margin: 0 auto;
+}
+
+h2{
+    margin:10px auto;
+}
+
+.cadastro {
+    height: 400px;
+    width: 430px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(240, 89, 119);
+    font-size: 16px;
+    margin: 10px auto;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ipt {
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    border: 2px solid #32b9cd;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #32b9cd;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1f7b8e;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+#btn_cadastrar{
+    width: 130px;
+}
