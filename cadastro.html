@@ -1,14 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CADASTRO</title>
+    <title>AquaTech</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    Nome de usuário: <input type="text" id="ipt_nome"><br>
-    Email: <input type="email" id="ipt_email"><br><br>
 
-    <button>Cadastrar</button>
+<body>
+    <div class="header">
+        <div class="container">
+            <h2 class="titulo">AquaTech</h2>
+            <ul class="navbar">
+                <li> Inicial </li>
+                <li> Simulador </li>
+                <li> | </li>
+                <li><a href="">Login</a></li>
+                <li><a href="./cadastro.html">Cadastre-se</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="banner">
+        <div class="container">
+            <div class="cadastro">
+                <div class="itensCadastro">
+                    <h2>Bem-Vindo!</h2>
+
+                    <label for="ipt_nome" class="label">Nome:</label>
+                    <input type="text" id="ipt_nome" class="ipt" placeholder="Seu Nome">
+
+                    <label for="ipt_email" class="label">E-mail:</label>
+                    <input type="email" id="ipt_email" class="ipt" placeholder="meuemail@provedor.com">
+
+                    <label for="ipt_senha" class="label">Senha:</label>
+                    <input type="password" id="ipt_senha" class="ipt" placeholder="********">
+
+                    <label for="ipt_confirma_senha" class="label">Confimação Senha:</label>
+                    <input type="password" id="ipt_confirma_senha" class="ipt" placeholder="********">
+
+                    <button onclick="" id="btn_cadastrar" class="label">Cadastrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
+
 </html>

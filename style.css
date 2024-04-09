@@ -1,104 +1,112 @@
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: black;    
+    background-color: black;
 }
 
-.titulo{
+.titulo {
     color: #32b9cd;
-    width: fit-content;
     font-weight: 500;
 }
 
-.navbar{
+.navbar {
     width: 300px;
     color: #e3b062;
     list-style: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 
-.navbar a:hover{
-    color: #32b9cd;
-}
-
-.navbar a{
+.navbar a {
     color: #e3b062;
     text-decoration: none;
 }
 
-.header{
+.header {
     border-bottom: 3px solid #32b9cd;
 }
 
-.container{    
+.container {
     width: 80%;
     margin: auto;
     display: flex;
-}
-
-.header .container{
     justify-content: space-between;
-}
-
-/* BANNER */
-
-.banner{
-    background-image: url(./assets/imagens/bg-jelly-fish-para_outras_pags.png);
-    height: 500px;
-    color: white;
-
-}
-
-.banner .container{
-    justify-content: center;
     align-items: center;
-    height: 100%;
 }
 
-.banner .container p{
-    font-size: 32px;
-    width: 200px;
-}
-
-/* SOCIAL */
-
-.social{
-    background-color: #f7f7f7;
-    height: 500px;
-}
-
-.social .container {
-    align-items: center;    
-    height: 100%;
-    width: 100%;
-    justify-content: space-around;
-}
-
-.social .container .box{
+.itensCadastro{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;    
+    align-items: flex-start;
 }
 
-.social .container .box img{
-    width: 100px;    
-}
-
-.social .container .box p{
-    width: 400px;
-}
-
-.footer{
-    background-color: #32b9cd;
+.banner {
+    background-image: url(./assets/imagens/bg-jelly-fish-para_outras_pags.png);
+    height: 550px;
     color: white;
 }
 
-.footer .container{
+.banner .container {
+    display: flex;
     justify-content: center;
     align-items: center;
+    height: 100%;
+}
+
+.banner .container .cadastro .itensCadastro #btn_cadastrar {
+    background-color: rgb(240, 89, 119);
+    align-items: center;
+    margin: 0 auto;
+}
+
+h2{
+    margin:10px auto;
+}
+
+.cadastro {
+    height: 400px;
+    width: 430px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(240, 89, 119);
+    font-size: 16px;
+    margin: 10px auto;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ipt {
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    border: 2px solid #32b9cd;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #32b9cd;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1f7b8e;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+#btn_cadastrar{
+    width: 130px;
 }
